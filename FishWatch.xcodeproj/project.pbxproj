@@ -22,6 +22,7 @@
 		1447299C2982A99300979477 /* FishWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1447299B2982A99300979477 /* FishWatch_Watch_AppTests.swift */; };
 		144729A62982A99300979477 /* FishWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144729A52982A99300979477 /* FishWatch_Watch_AppUITests.swift */; };
 		144729A82982A99300979477 /* FishWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144729A72982A99300979477 /* FishWatch_Watch_AppUITestsLaunchTests.swift */; };
+		144729BF2982EFBE00979477 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144729BE2982EFBE00979477 /* CollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		144729A12982A99300979477 /* FishWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FishWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		144729A52982A99300979477 /* FishWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		144729A72982A99300979477 /* FishWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		144729BE2982EFBE00979477 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +216,7 @@
 				1447298C2982A99200979477 /* ContentView.swift */,
 				1447298E2982A99300979477 /* Assets.xcassets */,
 				144729902982A99300979477 /* Preview Content */,
+				144729BE2982EFBE00979477 /* CollectionView.swift */,
 			);
 			path = "FishWatch Watch App";
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144729BF2982EFBE00979477 /* CollectionView.swift in Sources */,
 				1447298D2982A99200979477 /* ContentView.swift in Sources */,
 				1447298B2982A99200979477 /* FishWatchApp.swift in Sources */,
 			);
